@@ -1,0 +1,154 @@
+body
+{
+    background-color : white;
+	font-family: Calibri, Arial;
+}
+header
+{
+    color : white;
+	display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+	background-color: #6A52E6;
+
+}
+footer
+{
+	background-color : #213967;
+	color : white;
+}
+p
+{
+	line-height:25px;
+}
+.texte1
+{
+	color : #FFFFFF;
+	font-size: 2em;
+	font-weight: normal;
+	padding-left : 150px;
+}
+.texte_entete
+{
+	color : #FFFFFF;
+	font-size: 0.5em;
+	font-weight: normal;
+
+}
+#entete
+{
+    background-color: #6A52E6;
+}
+#texte_entete
+{
+	color : #FFFFFF;
+	font-size: 2em;
+	font-weight: normal;
+	padding-left : 150px;
+	padding-bottom : 50px;
+}
+#texte_entete2
+{
+	color : #FFFFFF;
+	font-size: 0.6em;
+	font-weight: normal;
+	padding-bottom : 50px;
+	line-height:10px;
+}
+#texte_bas
+{
+	color : #FFFFFF;
+	font-size: 2em;
+	font-weight: normal;
+	padding-left : 150px;
+}	
+section
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}	
+
+.text_vert
+{
+	background-color : #00E191;
+}
+.text_vert2
+{
+	background-color : #00E191;
+	color : #213967;
+	font-size: 0.6em;
+}
+.text_vert3
+{
+	background-color : #00E191;
+	color : #213967;
+	font-size: 0.6em;
+	font-weight: bold;
+}
+.text3
+{
+	color : #FFFFFF;
+	font-size: 0.6em;
+}
+#photo
+{
+	padding-left : 50px;
+	padding-right : 100px;
+	padding-top : 50px;
+	padding-bottom : 0px;
+}
+#logo_balise
+{
+	padding-left : 125px;
+	padding-right : 25px;
+	padding-top : 50px;
+	padding-bottom : 50px;
+}
+#article1
+{
+	padding-left : 10px;
+	padding-right : 25px;
+	padding-top : 50px;
+	padding-bottom : 50px;
+}
+#titre_competences
+{
+	color : #1F2B55;
+    font-size: 1.8em;
+    font-weight: normal;
+    margin: 0 0 0 150px;
+
+}
+.detail_competences
+{
+	color : #1F2B55;
+    font-size: 1em;
+    font-weight: normal;
+    margin:0 0 0 150px;
+	line-height:25px;
+}
+#logo_reseaux	
+{
+	margin: 0 0 0 150px;
+}
+
+#bas_page
+{
+	display : flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 225px;	
+}
+@media screen and (max-width: 1024px)
+{
+	#photo
+	{
+		display:none;
+	}
+	#logo
+	{
+		display:none;
+	}
+}
+	
